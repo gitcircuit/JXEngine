@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JSlider.xml
+    Created on : May 14, 2008, 10:15 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout() )"
+    setName="panel0"
+>
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+      new java.awt. GridBagLayout())"
+      setName="panel1"
+  >
+
+
+     <javax.swing.JSlider 
+        setOrientation="javax.swing.JSlider.HORIZONTAL" 
+        setMaximum="50"
+        setMinimum="1"
+        setValue="15"
+        setMajorTickSpacing="10"
+        setMinorTickSpacing="1"
+        setPaintTicks="TRUE"
+        setPaintLabels="true"
+        setFont="new java.awt.Font(Serif,java.awt.Font.ITALIC, 15)"
+        setName="slider1"
+        addChangeListener="new demo.components.ListenerClass(JXEngine)"
+        jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+      />
+    
+      <s1 jxeSetObject="new javax.swing.JSlider(javax.swing.JSlider.HORIZONTAL,
+                          1, 70, 15) {{
+            setMajorTickSpacing(10);
+            setMinorTickSpacing(1);
+            setPaintTicks(TRUE);
+            setPaintLabels(true);
+            setName(slider2);
+            jxeSetListener1(addChangeListener,
+                            javax.swing.event.ChangeListener,
+                            stateChanged,
+                            demo.components.ListenerMethods.onchangeJSlider ( 
+                            JXEngine, @fo=output,@fo=slider2));
+            }}"
+          jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 1, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+      />
+    
+
+      <s3 jxeSetObject="@xl=/demo/components/JSlider3.xml"
+          jxeSetConstraints="new java.awt.GridBagConstraints (
+                          1, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.VERTICAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+      />
+    
+  </p1>  
+    
+    
+  
+
+</p0>

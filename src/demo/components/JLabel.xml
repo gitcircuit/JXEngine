@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JLabel.xml
+    Created on : April 25, 2008, 11:56 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+        
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel(  new java.awt.GridLayout(1,2) )"
+    setName="panel0"
+>
+  
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+      new java.awt. GridLayout (5, 2, 5, 5))"
+      setName="panel1"
+  >
+  
+  <javax.swing.JLabel  
+      setName="label0"
+      setText="JLabel with only Text"
+      setSize="new java.awt.Dimension(50,25)"
+  />
+
+   <l2  jxeSetObject="new javax.swing.JLabel()"
+        setHorizontalTextPosition="javax.swing.SwingConstants.CENTER"
+        setVerticalTextPosition="javax.swing.SwingConstants.BOTTOM"
+        setToolTipText="This is tooltip"
+        setName="label2"
+        setText="TextOnly Label with tooltip"
+        setSize="new java.awt.Dimension(50,25)"
+  />
+  
+  
+  <l3 jxeSetObject="new javax.swing.JLabel(
+        new javax.swing.ImageIcon( ./src/demo/icon/middle.gif )) {{
+          setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+          setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+          setToolTipText(JLabel3 tooltip);
+      }} "
+      setName="label3"
+      setText="JLabel with Icon and Tooltip"
+      setSize="new java.awt.Dimension(50,25)"
+  ></l3>
+  
+  <l4 jxeSetObject="@xl=/demo/components/JLabel4.xml"/>
+  
+</p1>
+  
+</p0>

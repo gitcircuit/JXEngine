@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : MonthVector.xml
+    Created on : May 22, 2008, 9:17 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<v  jxeSetObject="new java.util.Vector&lt;java.lang.String&gt;() {{
+                    add(January);
+                    add(February);
+                    add(March);
+                    add(April);
+                    add(May);
+                    add(June);
+                    add(July); add(August); add(&quot;September&quot;);
+                    add(October);
+                    add(November);
+                    add(December);
+                    }}"
+/>

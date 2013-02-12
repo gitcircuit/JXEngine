@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Main.xml
+    Created on : July 23, 2006, 9:20 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+
+
+<mr jxeSetObject="new javax.swing.JPanel(new java.awt.BorderLayout())"
+    setName="m_root"
+>
+  
+  
+  
+  <mmp  jxeSetObject="new javax.swing.JPanel(new java.awt.BorderLayout())" 
+        setName="m_menupanel" 
+        jxeSetConstraints="java.awt.BorderLayout.NORTH"
+  >
+    
+    <mmb  jxeSetObject="new javax.swing.JMenuBar()" 
+          setName="m_menubar"
+          jxeSetConstraints="java.awt.BorderLayout.NORTH"
+    >
+      <mf jxeSetObject="new javax.swing.JMenu( File )" 
+          setName="m_file" 
+      >
+        <mo jxeSetObject="new javax.swing.JMenuItem( Open )" 
+            setName="m_open"
+        />
+        <mc  jxeSetObject="new javax.swing.JMenuItem( Close )" 
+             setName="m_close"
+        />
+      </mf>
+      
+      <mh jxeSetObject="new javax.swing.JMenu( Help )" 
+          setName="m_help"
+      >
+        <mi jxeSetObject="new javax.swing.JMenuItem( Info )" 
+            setName="m_info"
+        />
+        <mc jxeSetObject="new javax.swing.JMenuItem( Credit )" 
+            setName="m_credit"
+        />
+      </mh>	
+      
+    </mmb>
+    
+    <mp  jxeSetObject="new javax.swing.JPanel(new java.awt.BorderLayout())" 
+         setName="m_panel"
+         jxeSetConstraints="java.awt.BorderLayout.CENTER"
+    > 
+      <mtb  jxeSetObject="new javax.swing.JToolBar()" 
+            setName="m_toolbar" 
+            jxeSetConstraints="java.awt.BorderLayout.NORTH"
+      >
+        <mb jxeSetObject="new javax.swing.JButton()" 
+            setName="m_button" 
+            setText="Button"
+        />
+      </mtb>
+      
+    </mp>   
+    
+  </mmp>
+  
+  
+  
+  
+  
+  
+  
+  
+  <mp  jxeSetObject="new javax.swing.JPanel(new java.awt.BorderLayout())"
+       setName="m_panel" 
+       jxeSetConstraints="java.awt.BorderLayout.CENTER"
+  >
+    
+    <mtp jxeSetObject="new javax.swing.JTabbedPane( 
+          javax.swing.JTabbedPane.LEFT, 
+          javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT 
+          ){ {
+            add(@xl=/demo/components.xml);
+          }}"
+    >   
+      <!-- <TabbedPaneLink_1  jxeSetXLink="/XML/Simple.xml" /> -->              
+
+    </mtp>
+  </mp>
+  
+  
+</mr>
+

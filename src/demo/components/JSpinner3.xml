@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JSpinner2.xml
+    Created on : May 24, 2008, 4:43 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<s3    jxeSetObject="new javax.swing.JSpinner( 
+                  new javax.swing.SpinnerListModel( 
+                      @xl=/demo/components/NumberArrayList.xml
+                       )
+                       ) {{
+                       
+                       setName(spinner3);
+                       jxeSetListener1( addChangeListener,
+                            javax.swing.event.ChangeListener,
+                            stateChanged,
+                            demo.components.ListenerMethods.onchangeJSpinner ( 
+                            JXEngine, @fo=output,@fo=spinner3));
+                       setSize(new java.awt.Dimension(20,20));
+                       }}"
+/>

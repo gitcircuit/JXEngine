@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JProgressBar.xml
+    Created on : May 25, 2008, 10:30 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout() )"
+    setName="panel0"
+>
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+      new java.awt. GridLayout(4, 0, 5,5))"
+      setName="panel1"
+  >
+    
+    <p2 jxeSetObject="new javax.swing.JPanel()"
+      setName="panel2"
+    >
+      <javax.swing.JProgressBar
+              setName="progressbar0"
+            	setMinimum="0"
+              setMaximum="100"
+              setValue="0"
+              setStringPainted="true"
+      />
+      
+      <javax.swing.JButton  
+              setText="start" 
+              setName="button0"
+              jxeSetListener_1="addActionListener,
+                              java.awt.event.ActionListener,
+                              actionPerformed,
+                            new demo.components.JProgressBarListener(JXEngine).
+                                      onclickJProgressButton(
+                                      @fo=progressbar0, @fo=output)"
+      
+      />
+      
+      
+    </p2>
+    
+    
+    <p3 jxeSetObject="new javax.swing.JPanel()"
+      setName="panel3"
+    >
+      
+      <b1 jxeSetObject="new javax.swing.JButton (start) {{
+              setName(button1);
+              jxeSetListenerXXX(addActionListener,
+                              java.awt.event.ActionListener,
+                              actionPerformed,
+                            new demo.components.JProgressBarListener(JXEngine).
+                                      onclickJProgressButton(
+                                      @fo=progressbar1, @fo=output));
+              
+             }}"
+      
+      />
+      
+      <pb1  jxeSetObject="new javax.swing.JProgressBar (
+                  javax.swing.JProgressBar.HORIZONTAL, 0, 50) {{
+              setName(progressbar1);
+              setValue(5);
+              setStringPainted(true);
+              }}"
+      />
+      
+      
+      
+      
+    </p3>
+    
+    
+    <p4 jxeSetObject="new javax.swing.JPanel() { {
+    
+        add( new javax.swing.JProgressBar (
+                  javax.swing.JProgressBar.HORIZONTAL, 0, 100) {{
+              setName(progressbar2);
+              setValue(5);
+              setStringPainted(true);
+              }}
+              );
+    
+        add(new javax.swing.JButton (start) {{
+              setName(button1);
+              setBackground(java.awt.Color.RED);
+              jxeSetListenerXXX(addActionListener,
+                              java.awt.event.ActionListener,
+                              actionPerformed,
+                            new demo.components.JProgressBarListener(JXEngine).
+                                      onclickJProgressButton(
+                                      @fo=progressbar2, @fo=output));
+              
+             }}
+             );
+    
+    
+    
+           } } "
+      setName="panel4"
+    />
+    
+  </p1>
+  
+</p0>

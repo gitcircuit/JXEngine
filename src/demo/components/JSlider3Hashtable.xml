@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JSlider3Hashtable.xml
+    Created on : May 23, 2008, 4:43 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<h jxeSetObject="new java.util.Hashtable &lt;java.lang.Integer, 
+                                  javax.swing.JLabel&gt; () {{
+                                  
+                 put(new java.lang.Integer( 0 ), new javax.swing.JLabel(Stop));               
+                 put(new java.lang.Integer( 3 ), new javax.swing.JLabel(Slow));                 
+                 put(new java.lang.Integer( 30 ), new javax.swing.JLabel(FAST));                   
+                                  
+                 }}"
+
+
+
+/>

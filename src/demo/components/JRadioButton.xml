@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JRadioButton.xml
+    Created on : May 14, 2008, 10:15 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0  jxeSetObject="new javax.swing.JPanel(   new java.awt.BorderLayout())"
+      setName="panel0"
+>
+
+  
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+        new java.awt.GridLayout( 3, 1, 5, 5 ))"
+      setName="panel1"
+  >
+
+    <p2 jxeSetObject="new javax.swing.JPanel(  
+          new java.awt.  FlowLayout( java. awt. FlowLayout.LEADING, 5, 5 ))"
+        setName="panel2"
+    >
+      <javax.swing.JRadioButton 
+          setText="Simple" 
+          setName="simple"
+          setSelected="false"
+          setForeground="java.awt.Color.RED"
+          jxeSetListener_1="addItemListener,
+                            java.awt.event.ItemListener,
+                            itemStateChanged,
+                            demo.components.ListenerMethods.onclickJRadioButton(
+                            JXEngine, @fo=output,@fo=simple)"
+        />
+      
+        <rb2 jxeSetObject="new javax.swing.JRadioButton(Complex,
+               new javax.swing.ImageIcon( ./src/demo/  icon/middle.gif )
+             ) {{
+              setName(complex);
+              setFont(new java.awt.Font(Serif,java.awt.Font.ITALIC, 15));
+              jxeSetListener1(addItemListener,
+                              java.awt.event.ItemListener,
+                              itemStateChanged,
+                            demo.components.ListenerMethods.onclickJRadioButton(
+                            JXEngine, @fo=output,@fo=complex));
+            }}"
+        />
+        
+        <rb3 jxeSetObject="new javax.swing.JRadioButton(Advance) {{
+                setName(advance);
+                setFont(new java.awt.Font(Serif,java.awt.Font.BOLD, 15));
+                setSelected(true);
+            }}"
+            jxeSetListener1="addItemListener,
+                              java.awt.event.ItemListener,
+                              itemStateChanged,
+                            demo.components.ListenerMethods.onclickJRadioButton(
+                            JXEngine, @fo=output,@fo=advance)"
+        />
+      
+    </p2>
+
+    <p3 jxeSetObject="new javax.swing.JPanel(  
+          new java.awt.  GridLayout( 0, 4 , 5, 5 ))"
+        setName="panel2"
+    >
+      
+      <javax.swing.JRadioButton
+          setText="RadioButton0"
+          setName="RadioButton0"
+          addItemListener="new demo.components.ListenerClass(JXEngine)"
+      > 
+      </javax.swing.JRadioButton>
+
+      <c1 jxeSetObject="new javax .swing. JRadioButton ()"
+          setText="RadioButton1"
+          setName="RadioButton1"
+          addItemListener="new demo.components.ListenerClass(JXEngine)"
+      />
+      
+      <c2 jxeSetObject="new javax.swing.JRadioButton (){{
+            setText(RadioButton2);
+            setName(RadioButton2);
+            addItemListener(new demo.components.ListenerClass(JXEngine));
+          }}"
+      />
+      
+      <c3 jxeSetObject="@xl=/demo/components/JRadioButton3.xml"/>
+    </p3>
+    
+    <p4 jxeSetObject="@xl=/demo/components/JRadioButtonPanel.xml"/>
+    
+  </p1>
+
+
+</p0>

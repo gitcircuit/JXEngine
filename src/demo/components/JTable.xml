@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JTable.xml
+    Created on : May 24, 2008, 10:38 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout() )"
+    setName="panel0"
+>
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+      new java.awt. GridBagLayout())"
+      setName="panel1"
+  >
+    <sp0 jxeSetObject="new javax.swing.JScrollPane()"
+        jxeSetConstraints="new java.awt.GridBagConstraints (
+                      0, 0, 
+                      1, 1,
+                      1.0, 1.0,
+                      java.awt.GridBagConstraints.CENTER,
+                      java.awt.GridBagConstraints.HORIZONTAL,
+                      new java.awt.Insets(5,5,5,5),
+                      0, 0)"
+    >
+      <t0 jxeSetObject="new javax.swing.JTable(
+                  new java.lang.Object[][] {
+                    {1, Bob, Smith, 1948},
+                    {2, John, Doe, 1969},
+                    {3, Alan, Smith, 1998},
+                  },
+                  new java.lang.Object[] {
+                    ID, First, Last, 
+                    Year
+                  }
+                  )"
+            setName="table0"
+            setPreferredScrollableViewportSize="new java.awt.Dimension(200, 48)"
+            addMouseListener="new demo.components.ListenerClass(JXEngine)"
+          
+      />
+    </sp0>
+  
+    <sp1  jxeSetObject="new javax.swing.JScrollPane()"
+          jxeSetConstraints="new java.awt.GridBagConstraints (
+                        1, 0, 
+                        1, 1,
+                        1.0, 1.0,
+                        java.awt.GridBagConstraints.CENTER,
+                        java.awt.GridBagConstraints.HORIZONTAL,
+                        new java.awt.Insets(5,5,5,5),
+                        0, 0)"
+    >
+        <t1 jxeSetObject="@xl=/demo/components/JTable1.xml"/>
+    </sp1>
+  
+  
+    <sp2 jxeSetObject="new javax.swing.JScrollPane()"
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                        0, 1, 
+                        1, 1,
+                        1.0, 1.0,
+                        java.awt.GridBagConstraints.CENTER,
+                        java.awt.GridBagConstraints.HORIZONTAL,
+                        new java.awt.Insets(5,5,5,5),
+                        0, 0)"
+    >
+      <t2 jxeSetObject="new javax.swing.JTable(
+                          new demo.components.JTableCustomModel()
+                        ) {{
+                        setName(table2);
+                        setPreferredScrollableViewportSize(
+                                          new java.awt.Dimension(200, 48));
+                        addMouseListener(
+                                new demo.components.ListenerClass(JXEngine));
+                        
+                      }}"
+        />
+    </sp2>
+    
+    
+    <sp3 jxeSetObject="new javax.swing.JScrollPane(
+                          new javax.swing.JTable(
+                          new demo.components.JTableCustomModel()
+                        ) {{
+                          setName(table3);
+                          setPreferredScrollableViewportSize(
+                                          new java.awt.Dimension(200, 48));
+                          jxeSetListener2(addMouseListener,
+                                java.awt.event.MouseListener,
+                                mouseClicked,
+                                demo.components.ListenerMethods.onclickJTable ( 
+                                  JXEngine, @fo=output,@fo=table3));
+                        
+                          }}
+    
+                        )"
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                        1, 1, 
+                        1, 1,
+                        1.0, 1.0,
+                        java.awt.GridBagConstraints.CENTER,
+                        java.awt.GridBagConstraints.HORIZONTAL,
+                        new java.awt.Insets(5,5,5,5),
+                        0, 0)"
+    /> 
+  
+  
+	</p1>
+
+</p0>

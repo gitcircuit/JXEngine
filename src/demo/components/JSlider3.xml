@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JSlider3.xml
+    Created on : May 23, 2008, 4:39 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<s3 jxeSetObject="new javax.swing.JSlider(javax.swing.JSlider.VERTICAL,
+                          0, 30, 15) {{
+            setMajorTickSpacing(10);
+            setMinorTickSpacing(1);
+            setPaintTicks(TRUE);
+            setPaintLabels(true);
+            
+            setName(slider3);
+            jxeSetListener1(addChangeListener,
+                            javax.swing.event.ChangeListener,
+                            stateChanged,
+                            demo.components.ListenerMethods.onchangeJSlider ( 
+                            JXEngine, @fo=output,@fo=slider3));
+            }}"
+            setLabelTable="@xl=/demo/components/JSlider3Hashtable.xml"
+/>

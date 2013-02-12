@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : Simple.xml
+    Created on : April 10, 2008, 5:00 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<tcr  jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout())"
+      setName="components"
+>
+  <tcvsp  jxeSetObject="new javax.swing.JSplitPane(
+	  javax.swing.JSplitPane.VERTICAL_SPLIT)"
+	  setResizeWeight="0.5"
+  >
+
+  <tchsp  jxeSetObject="new javax.swing.JSplitPane(
+            javax.swing.JSplitPane.HORIZONTAL_SPLIT)"
+  >
+    <tcs  jxeSetObject="new javax.swing.JScrollPane()" 
+           setName="tc_scroll"
+    > 
+      
+      <tct jxeSetObject=" new javax.swing.JTree( 
+           
+             new java.util.Hashtable() {{
+             
+              put(new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (Basic Controls, 
+                                          @xl=/demo/components/JPanelEmpty.xml), true),
+
+                new javax.swing.tree.DefaultMutableTreeNode[]{ 
+
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JButton, 
+                                          @xl=/demo/components/JButton.xml),false),
+                  
+                  new javax.swing.tree.DefaultMutableTreeNode() {{ 
+                        setUserObject(new demo.components.JTreeInfo (JTextField, 
+                        @xl=/demo/components/JTextField.xml)); }},
+                        
+                  @xl=/demo/components/JLabelTreeNode.xml,
+                  
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JPasswordField, 
+                                          @xl=/demo/components/JPasswordField.xml),false),
+                                          
+                                          
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JCheckBox, 
+                                          @xl=/demo/components/JCheckBox.xml),false),
+                                          
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JRadioButton, 
+                                          @xl=/demo/components/JRadioButton.xml),false),
+                                          
+                                          
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JComboBox, 
+                                          @xl=/demo/components/JComboBox.xml),false),
+                                        
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JSlider, 
+                                          @xl=/demo/components/JSlider.xml),false),
+                                          
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JList, 
+                                          @xl=/demo/components/JList.xml),false),
+                                          
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JSpinner, 
+                                          @xl=/demo/components/JSpinner.xml),false),
+                                       
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JTable, 
+                                          @xl=/demo/components/JTable.xml),false),
+                                        
+                  new javax.swing.tree.DefaultMutableTreeNode(
+                        new demo.components.JTreeInfo (JProgressBar, 
+                                          @xl=/demo/components/JProgressBar.xml),false),
+                                          
+
+                }
+              );
+              
+             }}
+           )"
+           setName="tc_tree"
+           jxeSetListener="addTreeSelectionListener,
+             javax.swing.event.TreeSelectionListener, 
+             valueChanged,
+             demo.components.ListenerMethods.onclickJTreeNode(JXEngine,@fo=tc_tree,
+                                                              @fo=tc_display)"
+      >
+        
+        
+        
+        
+        
+      </tct>
+      
+      
+      
+      
+    </tcs> 
+    
+    <tcd jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout())"
+             setName="tc_display"
+    />
+    
+    
+    
+    
+  </tchsp>  
+  <bta jxeSetObject="new javax.swing.JScrollPane(
+        new javax.swing.JTextArea() {{ 
+        setName(output);
+        addMouseListener(new demo.components.JPopupListener(
+                      @xl=/demo/components/JPopupMenu.xml
+                      ));
+        }}
+          )"
+     />
+  </tcvsp>
+  
+</tcr>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JCheckBoxPanel.xml
+    Created on : May 22, 2008, 5:28 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+ <p4 jxeSetObject="new javax.swing.JPanel(  
+          new java.awt.  GridLayout( 0, 1 , 5, 5 ))"
+        setName="panel4"
+    >
+
+      <c1 jxeSetObject="new javax.swing.JCheckBox()"
+          setText="Checkbox4"
+          setName="Checkbox4"
+          addItemListener="new demo.components.ListenerClass(JXEngine)"
+      />
+      
+      <c2 jxeSetObject="new javax.swing.JCheckBox(){{
+            setText(Checkbox5);
+            setName(Checkbox5);
+            addItemListener(new demo.components.ListenerClass(JXEngine));
+          }}"
+      />
+      
+      <c3 jxeSetObject="@xl=/demo/components/JCheckBox3.xml"/>
+</p4>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JSpinner.xml
+    Created on : May 23, 2008, 11:03 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout(5,5) )"
+    setName="panel0"
+>
+  
+  <b1 jxeSetObject="new javax.swing.Box(javax.swing.BoxLayout.X_AXIS)"
+      createHorizontalBox=""
+      add="this.createHorizontalGlue()"
+      setName="box1"
+      jxeSetConstraints="java.awt.BorderLayout.NORTH"
+  >
+    <javax.swing.JSpinner
+        setName="spinner0"
+        setModel="new javax.swing.SpinnerListModel( 
+                    new java.lang.String[] {
+                    Sunday,
+                    Monday,
+                    Tuesday,
+                    Wednesday,
+                    Thursday,
+                    Friday,
+                    Saturday
+                    })"
+        jxeSetListener1=" addChangeListener,
+                          javax.swing.event.ChangeListener,
+                          stateChanged,
+                          demo.components.ListenerMethods.onchangeJSpinner ( 
+                          JXEngine, @fo=output,@fo=spinner0)" 
+        setSize="new java.awt.Dimension(20,20)"
+    />
+
+    <s1 jxeSetObject="new javax.swing.JSpinner()"
+        setName="spinner1"
+        setModel="new javax.swing.SpinnerListModel( 
+                      @xl=/demo/components/WeekArray.xml
+                      )"
+        addChangeListener="new demo.components.ListenerClass(
+                              JXEngine)"
+        
+        setSize="new java.awt.Dimension(20,20)"
+    />
+    
+  </b1>
+ 
+ 
+  <b2 jxeSetObject=" new javax.swing.Box(javax.swing.BoxLayout.Y_AXIS) {{
+            createVerticalBox();
+            add(this.createRigidArea(new java.awt.Dimension(20, 10)));
+            add(
+              new javax.swing.JSpinner( 
+                  new javax.swing.SpinnerListModel( 
+                      new java.util.ArrayList &lt;int&gt; () {{
+                        add(1);
+                        add(2);
+                        add(3);
+                        add(4);
+                        add(5);
+                        add(6);
+                        add(7); add(8); add(9); add(10);
+                          
+                       }}
+                       )
+                       ) {{
+                       
+                       setName(spinner2);
+                       jxeSetListener1( addChangeListener,
+                            javax.swing.event.ChangeListener,
+                            stateChanged,
+                            demo.components.ListenerMethods.onchangeJSpinner ( 
+                            JXEngine, @fo=output,@fo=spinner2));
+                       setSize(new java.awt.Dimension(20,20));
+                       }}
+                 );
+            
+                 add(this.createRigidArea(new java.awt.Dimension(20, 10)));
+                 add(@xl=/demo/components/JSpinner3.xml);
+          }}"
+      
+      setName="box2"
+      jxeSetConstraints="java.awt.BorderLayout.WEST"
+  >
+
+  </b2>
+ 
+  
+  
+</p0>

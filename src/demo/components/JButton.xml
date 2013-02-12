@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt.BorderLayout() )"
+    setName="panel0"
+>
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+      new java.awt. GridBagLayout())"
+      setName="panel1"
+  >
+    
+    <javax.swing.JButton  
+      setText="button1" 
+      setName="button1"
+      setBackground="java.awt.Color.GREEN"
+      setForeground="new java.awt.Color(204,51,0)"
+      setFont="new java.awt.Font(Serif, java.awt.Font.BOLD, 15)"
+      jxeSetListener_1="addActionListener,
+                        java.awt.event.ActionListener,
+                        actionPerformed,
+                        demo.components.ListenerMethods.onclickJButton(
+                          JXEngine, @fo=output,@fo=button1)"
+      jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+      
+    /> 
+   
+    <b2  jxeSetObject="new javax.swing.JButton(button2) {{
+           setName (button2);
+           setBackground (java.awt.Color.ORANGE);
+           setFont (new java.awt.Font(Serif,java.awt.Font.ITALIC, 15)); 
+           addActionListener(new demo.components.ListenerClass(
+                              JXEngine));
+           }}"
+         setBackground="java.awt.Color.ORANGE"
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                            1, 0, 
+                            1, 1,
+                            1.0, 1.0,
+                            java.awt.GridBagConstraints.CENTER,
+                            java.awt.GridBagConstraints.HORIZONTAL,
+                            new java.awt.Insets(5,5,5,5),
+                            0, 0)"
+         
+         
+    />
+    
+    <b3 jxeSetObject="@xl=/demo/components/JButton3.xml"
+        jxeSetConstraints="new java.awt.GridBagConstraints (
+                            0, 1, 
+                            1, 1,
+                            1.0, 1.0,
+                            java.awt.GridBagConstraints.CENTER,
+                            java.awt.GridBagConstraints.HORIZONTAL,
+                            new java.awt.Insets(5,5,5,5),
+                            0, 0)"
+    />
+    
+    <!-- demo.components.Tree.max1 (...) but require that you implement construtor for Tree i.e. public Tree() {} -->
+    
+    <b4  jxeSetObject="new javax.swing.JButton(GenericExample) {{
+           setName (GenericExample);
+           setBackground (java.awt.Color.GREEN);
+           setFont (new java.awt.Font(Serif,java.awt.Font.ITALIC, 15)); 
+           }}"
+         jxeSetListener_4="addActionListener,
+                        java.awt.event.ActionListener,
+                        actionPerformed,
+                        demo.components.ListenerMethods.onclickJButtonGenericExample(
+                        
+                          JXEngine, @fo=output,new demo.components.Tree&lt;java.lang.Number&gt;(0).max1(
+                                                    new demo.components.Tree&lt;java.lang.Number&gt;(0) {{ 
+                                                      addBranch(new demo.components.Tree&lt;java.lang.Integer&gt;(1));
+                                                      addBranch(new demo.components.Tree&lt;java.lang.Integer&gt;(2));
+                                                   }}, 
+                                                   new demo.components.Tree&lt;java.lang.Number&gt;(0) {{
+                                                      addBranch(new demo.components.Tree&lt;java.lang.Integer&gt;(1));
+                                                      addBranch(new demo.components.Tree&lt;java.lang.Integer&gt;(2));
+                                                      addBranch(new demo.components.Tree&lt;java.lang.Integer&gt;(3));
+                                                   }} 
+                                                )
+                        )"
+                        
+                        
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                            0, 2, 
+                            1, 1,
+                            1.0, 1.0,
+                            java.awt.GridBagConstraints.CENTER,
+                            java.awt.GridBagConstraints.HORIZONTAL,
+                            new java.awt.Insets(5,5,5,5),
+                            0, 0)"
+         
+         
+    />
+    
+    
+  </p1>
+
+</p0>

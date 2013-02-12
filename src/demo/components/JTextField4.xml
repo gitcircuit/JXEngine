@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : tf_advance.xml
+    Created on : April 25, 2008, 12:33 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<t4  jxeSetObject="new  javax.   swing.   JTextField(textfield4, 10) {{
+      setName(textfield4);
+      jxeSetListener_1(addActionListener,
+                       java.awt.event.ActionListener,
+                      actionPerformed,
+                      demo.components.ListenerMethods.onenterJTextField(
+                          JXEngine, @fo=output,@fo=textfield4));
+      }}"
+>
+</t4>

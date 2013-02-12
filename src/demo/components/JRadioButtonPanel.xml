@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JRadioButtonPanel.xml
+    Created on : May 22, 2008, 10:48 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+ <p4 jxeSetObject="new javax.swing.JPanel(  
+          new java.awt.  GridLayout( 0, 1 , 5, 5 ))"
+        setName="panel4"
+    >
+
+      <javax.swing.JRadioButton
+          setText="RadioButton4"
+          setName="RadioButton4"
+          jxeSetListener1="addItemListener,
+                              java.awt.event.ItemListener,
+                              itemStateChanged,
+                            demo.components.ListenerMethods.onclickJRadioButton(
+                            JXEngine, @fo=output,@fo=RadioButton4)"
+      />
+      
+      <c2 jxeSetObject="new javax.swing.JRadioButton(){{
+            setText(RadioButton5);
+            setName(RadioButton5);
+          }}"
+          jxeSetListener1="addItemListener,
+                              java.awt.event.ItemListener,
+                              itemStateChanged,
+                            demo.components.ListenerMethods.onclickJRadioButton(
+                            JXEngine, @fo=output,@fo=RadioButton5)"
+      />
+      
+      <c3 jxeSetObject="@xl=/demo/components/JRadioButton3.xml"/>
+</p4>

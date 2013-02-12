@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JCheckBox.xml
+    Created on : May 14, 2008, 10:15 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt. GridBagLayout())"
+    setName="panel0"
+>
+
+
+
+
+  <cb1 jxeSetObject="new javax.swing.JComboBox(  ) {{
+        addItem(One);
+        addItem(Two);
+        addItem(Three);
+        addItem(&quot;Four&quot;);
+        addItem(Five);
+        addItem(Six);
+        addItem(Seven);
+
+        setName(combobox5);
+        setSelectedIndex(5);
+
+        addItem(Eight);
+        addItem(Nine);
+        addItem(Ten);
+        addActionListener(new demo.components.ListenerClass(
+                          JXEngine));
+      }}"
+      jxeSetConstraints="new java.awt.GridBagConstraints (
+                      0, 0, 
+                      1, 1,
+                      1.0, 1.0,
+                      java.awt.GridBagConstraints.CENTER,
+                      java.awt.GridBagConstraints.HORIZONTAL,
+                      new java.awt.Insets(5,5,5,5),
+                      0, 0)"
+  />
+
+  <cb2 jxeSetObject="new javax.swing.JComboBox( 	) {{
+        addItem(0);
+        addItem(1);
+        addItem(2);
+        addItem(3);
+        addItem(4);
+        addItem(5);
+        addItem(6);
+        addItem(7);
+        addItem(8);
+        addItem(9);
+
+        setName(combobox6);
+        setSelectedIndex(5);
+
+      }}"
+      addActionListener="new demo.components.ListenerClass(
+                          JXEngine)"
+      jxeSetConstraints="new java.awt.GridBagConstraints (
+                      1, 0, 
+                      1, 1,
+                      1.0, 1.0,
+                      java.awt.GridBagConstraints.CENTER,
+                      java.awt.GridBagConstraints.HORIZONTAL,
+                      new java.awt.Insets(5,5,5,5),
+                      0, 0)"
+  />
+
+</p0> 
+  
+  
+  
+  
+
+  
+  
+  
+
+

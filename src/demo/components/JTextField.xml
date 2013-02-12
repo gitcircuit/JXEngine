@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JTextField.xml
+    Created on : April 25, 2008, 12:01 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel(   new java.awt.BorderLayout())"
+setName="panel0"
+>
+
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+        new java.awt.FlowLayout( java.awt.FlowLayout.LEFT, 5, 5, ))"
+      setName="panel1"
+  >  
+
+
+    <javax.swing.JTextField  
+        setName="textfield1"
+        setColumns="10"
+        addActionListener="new demo.components.ListenerClass(JXEngine)"
+    />            
+
+    <t2 jxeSetObject="new  javax.   swing.   JTextField()"
+        setName="textfield2"
+        setColumns="10"
+        jxeSetListener_1="addActionListener,
+                          java.  awt. event. ActionListener,
+                          actionPerformed,
+                          demo. components. ListenerMethods.onenterJTextField(
+                              JXEngine, @fo=output,@fo=textfield2)"
+  
+    /> 
+
+    <t3 jxeSetObject="new     javax.swing. JTextField(Uneditable, 10) {{
+          setEditable(false);
+          setName(uneditable);
+        }}"
+    />
+
+
+    <t4 jxeSetObject="@xl=/demo/components/JTextField4.xml"/>
+
+  </p1>
+
+
+</p0>

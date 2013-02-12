@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JCheckBox.xml
+    Created on : May 14, 2008, 10:15 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel( new java.awt. GridBagLayout() )"
+    setName="panel0"
+>
+
+
+
+  <p1 jxeSetObject="new javax.swing.JPanel( new java.awt. GridBagLayout())"
+      setName="panel1"
+      jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+  >
+
+
+
+
+    <cb1 jxeSetObject="new javax.swing.JComboBox( 
+    
+          new java.lang.String[] {
+                    Sunday,
+                    Monday,
+                    Tuesday,
+                    Wednesday,
+                    Thursday,
+                    Friday,
+                    Saturday
+                    }
+          
+          
+          
+          ) {{
+            setName(combobox1);
+            setSelectedIndex(2);
+            jxeSetListener1(addActionListener,
+                            java.awt.event.ActionListener,
+                            actionPerformed,
+                            demo.components.ListenerMethods.onselectJComboBox(
+                            JXEngine, @fo=output,@fo=combobox1));
+          }}"
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+    />
+
+    <cb2 jxeSetObject="new javax.swing.JComboBox( 
+    
+              new java.util.Vector&lt;java.lang.String&gt;() {{
+                add(Sunday);
+                add(Monday);
+                add(Tuesday);
+                add(&quot;Wednesday&quot;);
+                add(Thursday);
+                add(Friday);
+                add(Saturday);
+            }}
+            
+            
+          ) {{
+          setName(combobox2);
+          setSelectedIndex(4);
+          jxeSetListener1(addActionListener,
+                          java.awt.event.ActionListener,
+                          actionPerformed,
+                          demo.components.ListenerMethods.onselectJComboBox(
+                          JXEngine, @fo=output,@fo=combobox2));
+        }}"
+        jxeSetConstraints="new java.awt.GridBagConstraints (
+                          1, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+    />
+
+  </p1> 
+  
+  
+  
+  <p2 jxeSetObject="new javax.swing.JPanel( new java.awt. GridBagLayout())"
+      setName="panel2"
+      jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 1, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+  >
+
+
+
+
+    <cb3 jxeSetObject="new javax.swing.JComboBox( 
+    
+          @xl=/demo/components/MonthArray.xml
+
+          ) {{
+            setName(combobox3);
+            setSelectedIndex(1);
+            jxeSetListener1(addActionListener,
+                            java.awt.event.ActionListener,
+                            actionPerformed,
+                            demo.components.ListenerMethods.onselectJComboBox(
+                            JXEngine, @fo=output,@fo=combobox3));
+          }}"
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                          0, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+    />
+
+    
+    <cb4 jxeSetObject="@xl=/demo/components/JComboBox4.xml"
+         jxeSetConstraints="new java.awt.GridBagConstraints (
+                          1, 0, 
+                          1, 1,
+                          1.0, 1.0,
+                          java.awt.GridBagConstraints.CENTER,
+                          java.awt.GridBagConstraints.HORIZONTAL,
+                          new java.awt.Insets(5,5,5,5),
+                          0, 0)"
+		/>	
+    
+  </p2>
+
+  
+  <p3 jxeSetObject="@xl=/demo/components/JComboBoxPanel.xml"
+      jxeSetConstraints="new java.awt.GridBagConstraints (
+                    0, 2, 
+                    1, 1,
+                    1.0, 1.0,
+                    java.awt.GridBagConstraints.CENTER,
+                    java.awt.GridBagConstraints.HORIZONTAL,
+                    new java.awt.Insets(5,5,5,5),
+                    0, 0)"
+  />
+  
+
+</p0>

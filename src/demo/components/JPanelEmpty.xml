@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JPanelEmpty.xml
+    Created on : April 24, 2008, 10:04 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<pr  jxeSetObject="new javax.swing.JPanel(new java.awt.GridLayout(1,0))"
+        setName="p_root"
+>
+  <javax.swing.JPanel/>
+  
+  
+</pr>

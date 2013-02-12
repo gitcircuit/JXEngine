@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JLabelDefaultMutableTreeNode.xml
+    Created on : April 26, 2008, 12:04 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<n jxeSetObject="new javax.swing.tree.DefaultMutableTreeNode(
+                      new demo.components.JTreeInfo  (
+                        JLabel, @xl=/demo/components/JLabel.xml),
+                      false)"
+/>
+

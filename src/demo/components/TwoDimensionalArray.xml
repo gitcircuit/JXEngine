@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : TwoDimensionalArray.xml
+    Created on : May 24, 2008, 11:17 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<a2d jxeSetObject="new java.lang.Object[][] {
+									{1, Bob, Smith, 1948},
+									{2, John, Doe, 1969},
+									{3, Alan, Smith, 1998},
+								}"
+/>

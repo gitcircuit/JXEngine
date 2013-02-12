@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JPopupMenu.xml
+    Created on : May 14, 2008, 4:51 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<root jxeSetObject="new javax.swing.JPopupMenu()"
+>
+<pumi1 jxeSetObject="new javax.swing.JMenuItem(Clear)"
+       jxeSetListener1="addActionListener,
+              java.awt.event.ActionListener,
+              actionPerformed,
+            demo.components.ListenerMethods.clearOutput ( 
+            JXEngine, @fo=output)"
+/>
+
+</root>

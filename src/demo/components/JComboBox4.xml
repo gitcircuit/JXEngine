@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JComboBox4.xml
+    Created on : May 22, 2008, 10:29 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<cb4 jxeSetObject="new javax.swing.JComboBox( 
+    
+              @xl=/demo/components/MonthVector.xml
+            
+            
+          ) {{
+          setName(combobox4);
+          setSelectedIndex(5);
+          jxeSetListener1(addActionListener,
+                          java.awt.event.ActionListener,
+                          actionPerformed,
+                          demo.components.ListenerMethods.onselectJComboBox(
+                          JXEngine, @fo=output,@fo=combobox4));
+        }}"
+       
+    />

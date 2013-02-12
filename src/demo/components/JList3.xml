@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JList3.xml
+    Created on : May 23, 2008, 5:14 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<l3 jxeSetObject="new javax.swing.JList(
+           new java.util.Vector&lt;java.lang.String&gt;() {{
+                add(Sunday);
+                add(new java.lang.String(Monday));
+                add(new java. lang.  String(&quot; Tu e sday &quot;));
+                add(&quot;Wed nes day&quot;);
+                add(Thursday);
+                add(Friday);
+                add(Saturday);
+            }}                             
+       ){{
+          setName(list3);
+          setSelectionMode(
+                    javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION );
+          setLayoutOrientation(javax.swing.JList.VERTICAL_WRAP);
+          setVisibleRowCount(-1);
+          addMouseListener(new demo.components.ListenerClass(JXEngine));
+            
+       }}"
+        
+        
+/>

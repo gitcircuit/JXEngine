@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JCheckBox.xml
+    Created on : May 14, 2008, 10:15 AM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<p0 jxeSetObject="new javax.swing.JPanel(   new java.awt.BorderLayout())"
+    setName="panel0"
+>
+
+  
+
+  <p1 jxeSetObject="new javax.swing.JPanel( 
+        new java.awt.GridLayout( 2, 2, 5, 5 ))"
+      setName="panel1"
+  >
+
+
+    <p2 jxeSetObject="new javax.swing.JPanel(  
+          new java.awt.  FlowLayout( java. awt. FlowLayout.LEADING, 5, 5 ))"
+        setName="panel2"
+    >
+      <javax.swing.JCheckBox 
+          setText="Simple" 
+          setName="simple"
+          setSelected="false"
+          jxeSetListener_1="addItemListener,
+                            java.awt.event.ItemListener,
+                            itemStateChanged,
+                            demo.components.ListenerMethods.onclickJCheckBox(
+                            JXEngine, @fo=output,@fo=simple)"
+      />
+
+      <c1 jxeSetObject="new javax.swing.JCheckBox(Complex,
+              new javax.swing.ImageIcon( ./src/demo/icon/middle.gif )) {{
+                setName(complex);
+                setBackground(java.awt.Color.YELLOW);
+                setFont(new java.awt.Font(Serif,java.awt.Font.ITALIC, 15));
+                jxeSetListener1(addItemListener,
+                                java.awt.event.ItemListener,
+                                itemStateChanged,
+                                demo.components.ListenerMethods.
+                                            onclickJCheckBox(
+                                        JXEngine, @fo=output,@fo=complex));
+          }}"
+      />
+
+      <c2 jxeSetObject="new javax.swing.JCheckBox(Advance) {{
+            setName(cb_advance);
+            setBackground(java.awt.Color.GREEN);
+            setFont(new java.awt.Font(Serif,java.awt.Font.BOLD, 15));
+            setSelected(true);
+          }}"
+          jxeSetListener1="addItemListener,
+                          java.awt.event.ItemListener,
+                          itemStateChanged,
+                          demo.components.ListenerMethods.onclickJCheckBox(
+                            JXEngine, @fo=output,@fo=cb_advance)"
+      />
+
+    </p2>
+
+
+
+
+    <p3 jxeSetObject="new javax.swing.JPanel(  
+          new java.awt.  GridLayout( 0, 1 , 5, 5 ))"
+        setName="panel2"
+    >
+
+      <c1 jxeSetObject="new javax.swing.JCheckBox()"
+          setText="Checkbox1"
+          setName="Checkbox1"
+          addItemListener="new demo.components.ListenerClass(JXEngine)"
+      />
+      
+      <c2 jxeSetObject="new javax.swing.JCheckBox(){{
+            setText(Checkbox2);
+            setName(Checkbox2);
+            addItemListener(new demo.components.ListenerClass(JXEngine));
+          }}"
+      />
+      
+      <c3 jxeSetObject="@xl=/demo/components/JCheckBox3.xml"/>
+  </p3>
+
+  <p4 jxeSetObject="@xl=/demo/components/JCheckBoxPanel.xml"/>
+  </p1>
+
+</p0>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : JTable1.xml
+    Created on : May 24, 2008, 11:13 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<l0 jxeSetObject="new javax.swing.JTable(
+								@xl=/demo/components/TwoDimensionalArray.xml,
+							 	new java.lang.Object[] {
+                  ID, First, Last, 
+                  Year
+								}
+								)"
+          setName="table1"
+          setPreferredScrollableViewportSize="new java.awt.Dimension(200, 48)"
+          jxeSetListener2="addMouseListener,
+                          java.awt.event.MouseListener,
+                          mouseClicked,
+                          demo.components.ListenerMethods.onclickJTable ( 
+                            JXEngine, @fo=output,@fo=table1)"
+    />

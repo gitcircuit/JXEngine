@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : NumberArrayList.xml
+    Created on : May 24, 2008, 10:03 PM
+    Author     : Patel
+    Description:
+        Purpose of the document follows.
+-->
+
+<al1 jxeSetObject="new java.util.ArrayList &lt;int&gt; () {{
+                        add(1);
+                        add(2);
+                        add(3);
+                        add(4);
+                        add(5);
+                        add(6);
+                        add(7); add(8); add(9); add(10);
+                          
+                       }}"
+                       
+/>
