@@ -5,7 +5,7 @@
  * 
  * The MIT License
  *
- * Copyright © 2013 <Patel>
+ * Copyright © 2013 Jwalin Patel
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
  * software and associated documentation files (the “Software”), to deal in the Software
