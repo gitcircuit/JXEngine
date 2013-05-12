@@ -1,21 +1,29 @@
-// Example header
- /**
-   * Parse xml and return root node component handle 
-   *
-   * @param xml <code>String</code> xml-file path info
-   * @return <code>Object</code>- handle to a create java root object
-   * <p/>
-   * <p><b>Note:</b><br>
-   *  This is the object used through introspection the actions and fileds are set.
-   * </p>
-   */ 
-
-// JXBlend, JXMachine, JXPro
+/**
+ * JXEngine 
+ * Engine that allows Java object’s to be define in XML format. 
+ * Also act as plugging to any Java program, widget’s or toolkits.
+ * 
+ *  Copyright (C) 2013  Jwalin Patel
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/
+ * 
+ **/
 package org;
 
 /**
  *
- * @author Patel
+ * @author Jwalin Patel
  */
 
 public class JXEApplet extends javax.swing.JApplet {
