@@ -83,7 +83,7 @@
           javax.swing.JTabbedPane.LEFT, 
           javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT 
           ){ {
-            add(@xl=/demo/components.xml);
+            add(@xl=/demo/Components.xml);
           }}"
     >   
       <!-- <TabbedPaneLink_1  jxeSetXLink="/XML/Simple.xml" /> -->              

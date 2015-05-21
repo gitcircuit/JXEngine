@@ -1,7 +1,7 @@
 /**
  * JXEngine 
- * Engine that allows Java object’s to be define in XML format. 
- * Also act as plugging to any Java program, widget’s or toolkits.
+ * Engine that allows Java objectï¿½s to be define in XML format. 
+ * Also act as plugging to any Java program, widgetï¿½s or toolkits.
  * 
  *  Copyright (C) 2013  Jwalin Patel
  *
@@ -39,7 +39,7 @@ public class JXEApplet extends javax.swing.JApplet {
     
     public void init() {
         try {
-            x.add(this.getContentPane(), x.parse("/Demo/Main.xml")); 
+            x.add(this.getContentPane(), x.parse("/demo/Main.xml")); 
             
            
         }
