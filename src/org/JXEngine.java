@@ -3,7 +3,7 @@
  * Engine that allows Java object’s to be define in XML format. 
  * Also act as plugging to any Java program, widget’s or toolkits.
  * 
- *  Copyright (C) 2013  Jwalin Patel
+ *  Copyright (C) 2013   Patel
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 package org;
 /**
  *
- * @author Jwalin Patel
+ * @author  Patel
  */
 
 /**
